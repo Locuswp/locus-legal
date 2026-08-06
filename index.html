@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOCUS - Rechtliches & Datenschutz</title>
+    <title>LOCUS - Privacy & Terms</title>
     <style>
         :root {
             --bg-color: #050507;
@@ -20,6 +20,18 @@
             margin: 0 auto;
             padding: 40px 20px;
         }
+        
+        .lang-notice {
+            text-align: center;
+            color: var(--accent-green);
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 40px;
+            padding: 12px;
+            border-radius: 8px;
+            background-color: rgba(16, 185, 129, 0.1);
+        }
+
         h1 {
             color: var(--text-main);
             font-size: 32px;
@@ -50,9 +62,75 @@
             background-color: #2A2A3C;
             margin: 60px 0;
         }
+        .main-divider {
+            height: 3px;
+            background-color: var(--accent-green);
+            margin: 80px 0;
+            opacity: 0.5;
+        }
     </style>
 </head>
 <body>
+
+    <div class="lang-notice">
+        Scroll down for the German version.<br>
+        Für die deutsche Version bitte nach unten scrollen.
+    </div>
+
+    <!-- ========================================== -->
+    <!-- ENGLISH VERSION                            -->
+    <!-- ========================================== -->
+    
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated: July 2026</strong></p>
+    <p>Welcome to LOCUS. We respect your privacy and take the protection of your personal data very seriously. This Privacy Policy informs you about how we handle your data when you use our app.</p>
+
+    <h2>1. Data Collection and Storage (Supabase)</h2>
+    <p>To provide you with cloud synchronization across multiple devices, we securely collect and store the following data via our backend provider, Supabase:</p>
+    <ul>
+        <li>Account Information (email address, secure password hash).</li>
+        <li>User-generated content (flashcards, engrams, mind palaces, learning statistics).</li>
+    </ul>
+    <p>Your data is stored securely in the cloud and protected by Row-Level Security (RLS), meaning no one but you can access your personal learning data.</p>
+
+    <h2>2. Artificial Intelligence and Audio Processing (OpenAI)</h2>
+    <p>LOCUS uses the OpenAI API (including Whisper and GPT models) for features like "Feynman Tutor", "Mnemonic AI", and "Neural Roulette".</p>
+    <ul>
+        <li><strong>Audio Data:</strong> When you use voice recording features, the audio is temporarily sent to OpenAI for transcription. <strong>Audio files are not stored on our servers and are immediately deleted by OpenAI after processing.</strong></li>
+        <li><strong>No AI Training on Your Data:</strong> According to OpenAI's API policies, your data (neither text nor audio) is used to train their AI models.</li>
+    </ul>
+
+    <h2>3. Subscriptions (RevenueCat & Apple)</h2>
+    <p>We use RevenueCat to manage LOCUS PRO subscriptions. RevenueCat processes an anonymous App User ID to verify your purchase status. We never have access to your payment or credit card details; all payments are securely processed via Apple (App Store).</p>
+
+    <h2>4. Data Deletion</h2>
+    <p>You can irrevocably delete your account and all associated data at any time directly within the LOCUS app via the settings menu ("Danger Zone").</p>
+
+    <div class="divider"></div>
+
+    <h1>Terms of Service</h1>
+    <p><strong>Last Updated: July 2026</strong></p>
+
+    <h2>1. Scope</h2>
+    <p>By downloading or using the LOCUS app, you automatically agree to these terms. Please read them carefully before using the app.</p>
+
+    <h2>2. App Usage and Medical Disclaimer</h2>
+    <p>LOCUS uses clinically inspired protocols (such as NSDR and visual focus tasks) to enhance cognitive performance. However, LOCUS is an educational tool and <strong>not a medical product</strong>. It is not intended to diagnose, treat, cure, or prevent any diseases (such as ADHD or clinical anxiety disorders). Please use audiovisual protocols (like Bilateral Haptics or Entrainment) responsibly.</p>
+
+    <h2>3. LOCUS PRO Subscriptions</h2>
+    <p>LOCUS offers premium features via "LOCUS PRO" subscriptions (monthly or yearly). Payment is processed via your Apple ID account upon purchase confirmation. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage and cancel your subscriptions after purchase in your App Store account settings.</p>
+
+    <h2>4. Fair Use of AI Features</h2>
+    <p>LOCUS PRO includes access to AI-powered tools. We reserve the right to throttle or temporarily restrict access if we detect abusive, automated, or extremely high-volume requests to our AI APIs that do not correspond to normal learning behavior.</p>
+
+    <h2>5. Contact</h2>
+    <p>If you have any questions or suggestions regarding our Privacy Policy or Terms of Service, you can always contact us directly via the support section in the app.</p>
+
+    <div class="main-divider"></div>
+
+    <!-- ========================================== -->
+    <!-- DEUTSCHE VERSION                           -->
+    <!-- ========================================== -->
 
     <h1>Datenschutzerklärung</h1>
     <p><strong>Stand: Juli 2026</strong></p>
